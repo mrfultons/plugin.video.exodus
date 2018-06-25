@@ -1,3 +1,6 @@
+[B]4.0[/B]
+- Forked and ready to update weekly at least.
+
 [B]3.1.24[/B]
 - Last update, fix missing sources, updated scrapers
 
