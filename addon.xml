@@ -1,4 +1,4 @@
-﻿<addon id="plugin.video.exodus" version="4.0" name="Exodus" provider-name="Exodus">
+﻿<addon id="plugin.video.exodus" version="4.0" name="MrFultons" provider-name="MrFultons">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.5" />
