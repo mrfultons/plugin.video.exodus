@@ -1,21 +1,21 @@
-﻿<addon id="plugin.video.exodus" version="3.1.25" name="Exodus" provider-name="Exodus">
+﻿<addon id="plugin.video.exodus" version="4.0" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.5" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.33" />
-		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="script.module.urlresolver" version="5.0.08a" />
+		<import addon="script.module.metahandler" version="3.0.3" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus</summary>
+		<summary lang="en">MrFultons</summary>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<news>This is the Last Version Made From [COLOR red][B]C0LD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]. He'll not continue maintaining EXODUS anymore! Fixed missing sources, updated scrapers!</news>
+		<news>This is the new fork of exodus called mrfultons made by mrfultons himself.updates weekly</news>
 	</extension>
 </addon>
